@@ -1,0 +1,44 @@
+body{
+    background-color: white;
+}
+
+nav{
+    display: flex;
+    flex-direction: row;
+    background-color: red;
+    
+}
+
+.nav-links{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin-left: 200px;
+
+
+}
+
+li{
+    justify-content: space-between;
+    margin-left: 60px;
+    list-style: none;
+}
+
+.hero{
+    display: flex;
+    flex-direction: row;
+    margin: 20px;
+    margin-left: 30px;
+
+   
+}
+h1{
+  
+    font-size: 70px;
+}
+
+p{
+    border: 2px dotted red;
+    border-radius:2px;
+    
+}
